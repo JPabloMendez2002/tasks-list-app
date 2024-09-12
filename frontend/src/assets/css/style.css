@@ -1,0 +1,58 @@
+.rounded-circle {
+  border: 2px solid black;
+}
+
+.espacio2 {
+  margin-left: 0.3rem;
+}
+
+.iconSize {
+  font-size: large;
+  font-weight: 700;
+}
+
+
+.iconSizeBtn {
+  font-size: x-large;
+  font-weight: 700;
+}
+
+
+.toast-danger {
+  background-color: #f9e1e5;
+  color: #af233a;
+  border-color: #f4c8cf;
+}
+
+.toast-warning {
+  background-color: #fbf0da;
+  color: #73510d;
+  border-color: #f9e4be;
+}
+
+.image-home {
+  width: 80%;
+}
+
+
+.login-card, .register-card {
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+.login-card {
+  transform: rotateY(0deg);
+}
+
+.register-card {
+  transform: rotateY(360deg);
+}
+
+.container {
+  perspective: 1000px;
+}
+
+.btn-link {
+  cursor: pointer;
+}
